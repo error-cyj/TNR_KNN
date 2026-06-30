@@ -1,0 +1,20 @@
+[
+{
+  "directory": "C:/Users/chenYJ/Desktop/TNR_KNN/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.1\\bin\\mingw\\bin\\G__~1.EXE -g -std=c++17 -fdiagnostics-color=always -o CMakeFiles\\CH_TNR.dir\\TNR_2hop.cpp.obj -c C:\\Users\\chenYJ\\Desktop\\TNR_KNN\\TNR_2hop.cpp",
+  "file": "C:/Users/chenYJ/Desktop/TNR_KNN/TNR_2hop.cpp",
+  "output": "C:/Users/chenYJ/Desktop/TNR_KNN/cmake-build-debug/CMakeFiles/CH_TNR.dir/TNR_2hop.cpp.obj"
+},
+{
+  "directory": "C:/Users/chenYJ/Desktop/TNR_KNN/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.1\\bin\\mingw\\bin\\G__~1.EXE -g -std=c++17 -fdiagnostics-color=always -o CMakeFiles\\CH_TNR.dir\\ET.cpp.obj -c C:\\Users\\chenYJ\\Desktop\\TNR_KNN\\ET.cpp",
+  "file": "C:/Users/chenYJ/Desktop/TNR_KNN/ET.cpp",
+  "output": "C:/Users/chenYJ/Desktop/TNR_KNN/cmake-build-debug/CMakeFiles/CH_TNR.dir/ET.cpp.obj"
+},
+{
+  "directory": "C:/Users/chenYJ/Desktop/TNR_KNN/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.1\\bin\\mingw\\bin\\G__~1.EXE -g -std=c++17 -fdiagnostics-color=always -o CMakeFiles\\CH_TNR.dir\\main.cpp.obj -c C:\\Users\\chenYJ\\Desktop\\TNR_KNN\\main.cpp",
+  "file": "C:/Users/chenYJ/Desktop/TNR_KNN/main.cpp",
+  "output": "C:/Users/chenYJ/Desktop/TNR_KNN/cmake-build-debug/CMakeFiles/CH_TNR.dir/main.cpp.obj"
+}
+]
