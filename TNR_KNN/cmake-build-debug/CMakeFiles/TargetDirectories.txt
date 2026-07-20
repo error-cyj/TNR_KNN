@@ -1,3 +1,0 @@
-C:/Users/chenYJ/Desktop/TNR_KNN/cmake-build-debug/CMakeFiles/CH_TNR.dir
-C:/Users/chenYJ/Desktop/TNR_KNN/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/chenYJ/Desktop/TNR_KNN/cmake-build-debug/CMakeFiles/rebuild_cache.dir
