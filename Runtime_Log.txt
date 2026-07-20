@@ -1,0 +1,18 @@
+===  start  ===
+Loaded graph: 321270 nodes.
+--- [Phase 1] Building Full Order (Greedy Contraction) ---
+--- [Phase 2] Constructing Complete Static Tree & Initializing Dynamic CH ---
+--- [Phase 3] Computing Local Distances & Assembling Core Network ---
+--- [Phase 3.5] Extracting Localized Cell Distance Matrix (Top-Down DP) ---
+ [ET Phase] Partial ET & Core Network Build Complete! Total time: 12.0924 s
+--- [Phase 3.5]  ---
+ [Local Phase] Academic Dynamic Fast2Hop Built!
+ TN Academic Core Network ！
+
+=== [Phase 4]  ===
+17208 ms ===
+Graph Nodes: 321270
+Object Density: 0.00099916
+Initial Avg Query Time: 97.648 us
+Post-Update Avg Query Time: 93.228 us
+Avg Update Time: 1.844 us
