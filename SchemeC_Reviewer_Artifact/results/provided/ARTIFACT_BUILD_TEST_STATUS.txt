@@ -1,0 +1,13 @@
+Reviewer artifact verification (performed in this environment)
+==================================================================
+Release configure/build: PASS
+Fast2Hop test: PASS
+  V8_9_DETERMINISTIC_OK
+  V8_9_HIGH_GLOBAL_RANK_OK
+  V8_9_RANDOMIZED_500_OK
+TNR end-to-end synthetic test: PASS
+  TNR_END_TO_END_DYNAMIC_OK
+
+Missing real NY experimental inputs: graph, object files, query files,
+and update files. No real NY numerical reproduction was executed.
+Historical density_results_original.csv contains superseded CAL rows.

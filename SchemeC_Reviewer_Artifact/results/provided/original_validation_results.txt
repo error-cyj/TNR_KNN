@@ -1,0 +1,43 @@
+V8.9 FINAL SCHEME C - VALIDATION RESULTS
+=======================================
+
+Build
+-----
+Command:
+  cmake -S . -B build -DCMAKE_BUILD_TYPE=Release -DBUILD_V89_CORRECTNESS_TEST=ON
+  cmake --build build -j2
+Result: PASS (GCC 14.2)
+
+Fast2Hop correctness regression
+-------------------------------
+Command: ./build/test_v89_correctness
+Result: PASS
+Markers:
+  V8_9_DETERMINISTIC_OK
+  V8_9_HIGH_GLOBAL_RANK_OK
+  V8_9_RANDOMIZED_500_OK
+
+End-to-end TNR dynamic correctness regression
+---------------------------------------------
+Command: ./build/test_tnr_end_to_end
+Graph: synthetic connected 40-vertex weighted graph, 5 Cells, 20 directed TN-core edges.
+Coverage: all 40 source vertices, K=1..3, comparing exact distance results to Dijkstra in:
+  1. Initial static indexes.
+  2. Lazy insert/delete with exactly one Apply_Index_Updates call.
+  3. Eager insert/delete with rebuild at Apply_Index_Updates.
+Result: PASS in all three states; ties at the TOP-K distance boundary are allowed.
+
+Sanitizers
+----------
+ASan + UBSan builds of both correctness tests completed.
+- test_v89_correctness passed with LeakSanitizer enabled.
+- test_tnr_end_to_end passed with ASan/UBSan; leak detection disabled for this run.
+
+Benchmark-driver smoke test
+---------------------------
+A tiny synthetic dataset was run through the process-isolated driver. It created the expected query/update CSVs and run_status.csv and performed the expected sequence:
+  clean query -> insert batch -> delete batch -> one Apply_Index_Updates call.
+
+Limitations
+-----------
+No real NY/BAY/FLA/COL graph, object, query or update data was available in this environment. This validation does not replace running the package over those real datasets before reporting experimental results.
